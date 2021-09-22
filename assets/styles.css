@@ -13,3 +13,27 @@ a {
   color: #d9d9d9;
   text-decoration: none;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nameLogo {
+  cursor: pointer;
+}
+
+.nav-container li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-container li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-container li a:hover {
+  color: #284b63;
+}
