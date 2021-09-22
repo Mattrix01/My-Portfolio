@@ -16,13 +16,14 @@ a {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
 
 .nameLogo {
   cursor: pointer;
+  margin-right: auto;
 }
 
 .nav-container li {
@@ -36,4 +37,15 @@ header {
 
 .nav-container li a:hover {
   color: #284b63;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
 }
