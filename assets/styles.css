@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #353535;
 }
 
 li,
@@ -19,6 +18,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 5px 10%;
+  background-color: #353535;
 }
 
 .nameLogo {
@@ -36,7 +36,7 @@ header {
 }
 
 .nav-container li a:hover {
-  color: #284b63;
+  color: #2d7eb4;
 }
 
 @media screen and (max-width: 576px) {
@@ -61,9 +61,22 @@ header {
 }
 
 .portfolio-portrait {
-  background-position: center center;
-  top: 50px;
+  top: 10px;
   height: 30%;
   width: 30%;
   position: inherit;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  color: #353535;
+  text-decoration: none;
+}
+
+.about-me h2 {
+  font-size: xx-large;
 }
