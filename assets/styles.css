@@ -6,7 +6,7 @@
 
 li,
 a {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   font-size: x-large;
   color: #d9d9d9;
@@ -71,7 +71,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Josefin Sans", sans-serif;
   font-size: large;
   color: #353535;
   text-decoration: none;
@@ -79,4 +79,5 @@ header {
 
 .about-me h2 {
   font-size: xx-large;
+  margin-bottom: 30px;
 }
