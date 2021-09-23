@@ -81,3 +81,26 @@ header {
   font-size: xx-large;
   margin-bottom: 30px;
 }
+
+.flexbox-container {
+  display: flex;
+}
+
+.flexbox-item {
+  width: 400px;
+  margin: 10px;
+  border: 3px solid #2d7eb4;
+  background-color: #353535;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+}
