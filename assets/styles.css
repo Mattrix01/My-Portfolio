@@ -130,12 +130,13 @@ header {
 /* CSS for cards styling below */
 body {
   margin: 2rem;
-  color: var(--purple);
+  color: var(--dark);
 }
 
 .card {
   overflow: hidden;
   box-shadow: black;
+  border: 3px solid var(--dark);
   border-radius: 0.5rem;
   position: relative;
   width: 350px;
@@ -160,4 +161,24 @@ body {
   z-index: 1;
   top: 1rem;
   border-radius: 0 2rem 2rem 0;
+}
+
+.card-body {
+  margin: 15rem 1rem 1rem 1rem;
+}
+
+.project-hashtag {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--purple);
+}
+
+.project-title {
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  color: #1d1d1d;
+}
+.project-description {
+  color: var(--dark);
+  font-size: 1rem;
 }
