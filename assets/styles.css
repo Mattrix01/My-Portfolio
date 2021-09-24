@@ -20,6 +20,7 @@ header {
   align-items: center;
   padding: 5px 10%;
   background-color: #2e2e2e;
+  border-radius: 0.5rem;
 }
 
 .nameLogo {
@@ -58,7 +59,9 @@ header {
   top: 100px;
   height: 300px;
   width: 100%;
+  margin-top: 3px;
   position: inherit;
+  border-radius: 0.5rem;
 }
 
 .portfolio-portrait {
