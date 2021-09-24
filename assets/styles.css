@@ -184,3 +184,12 @@ body {
   color: var(--dark);
   font-size: 1rem;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10%;
+  background-color: #2e2e2e;
+  border-radius: 0.5rem;
+}
