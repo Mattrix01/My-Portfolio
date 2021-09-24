@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-li,
+nav li,
 a {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
@@ -65,12 +65,13 @@ header {
   top: 10px;
   height: 30%;
   width: 30%;
+  padding-right: 2%;
   position: inherit;
 }
 
 .about-me {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   margin-top: 2%;
   font-family: "Josefin Sans", sans-serif;
   font-size: large;
@@ -126,8 +127,37 @@ header {
   --purple: #2d7eb4;
 }
 
-/* CSS for cards below */
+/* CSS for cards styling below */
 body {
   margin: 2rem;
   color: var(--purple);
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: black;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+}
+
+.banner-img {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+}
+
+.project-tag {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: #353535;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
 }
