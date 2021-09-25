@@ -24,8 +24,8 @@ header {
 }
 
 .nameLogo {
-  cursor: pointer;
   margin-right: auto;
+  /* cursor: pointer; */
 }
 
 .nav-container li {
