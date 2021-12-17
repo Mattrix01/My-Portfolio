@@ -8,6 +8,8 @@ Demonstration of my HTML and CSS skills in a responsive portfolio page for poten
 
 https://github.com/Mattrix01/My-Portfolio
 
+https://mattrix01.github.io/My-Portfolio/
+
 ## Technologies Used
 
 - HTML
