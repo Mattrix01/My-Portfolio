@@ -138,6 +138,7 @@ span {
   margin-left: 8%;
   /* margin-top: 15%; */
   margin-top: 220px;
+  margin-bottom: 1000px;
 }
 
 .aboutMe h1 {
@@ -273,7 +274,8 @@ main {
     margin-top: 600px;
   }
   .projectsResponse {
-    margin-top: 50px;
+    /* change depending on about me length */
+    margin-top: 600px;
   }
 }
 
