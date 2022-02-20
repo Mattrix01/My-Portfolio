@@ -119,6 +119,22 @@ span {
   left: 45%;
 }
 
+/* media links */
+.social {
+  margin-left: 8%;
+  margin-top: 2px;
+}
+
+.social a {
+  font-size: 30px;
+  color: var(--dark);
+  margin-right: 20px;
+}
+
+.social a:hover {
+  color: var(--blue);
+}
+
 /* Cards below */
 /* card body anchors */
 .wrapper a {
@@ -246,5 +262,19 @@ main {
   }
   to {
     opacity: 1;
+  }
+}
+
+.slidein {
+  animation: slidein 5s;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -1600px;
+  }
+
+  22% {
+    margin-left: 0px;
   }
 }
