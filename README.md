@@ -60,15 +60,15 @@ https://mattrix01.github.io/My-Portfolio/
 
 - I added top section making good use of positioning and CSS with some links to my github etc, as well as an image fo me with some new colour and theme styling appleid throughtout page using CSS variables, aswell as some mouse over effects on my page and logo
 
-- I had a lot of trouble shooting for overlaying images and fitting them into place but I got them all solved in the end and maintained a responsive web document for mobile phone devices.
+- I had a lot of trouble-shooting for overlaying images and fitting them into place but I got them all solved in the end and maintained a responsive web document for mobile phone devices.
 
-- I did further styling and tweaks throughout page, including adding some fade and margin animations.
+- I did further styling and tweaks throughout the page, including adding some fade and margin animations.
 
 - I re-linked all my pages and href's so some open in another tab for usability.
 
 - I added my new projects to my cards effectively.
 
-- Finally, updated my README document and cleaned out any old files, sorted any more responsive issues and bugs (which tend to happen a lot)
+- Finally, updated my README document and cleaned out any old files, sorted any more responsive issues and bugs (which tend to happen a lot!)
 
 ## web page screenshot
 
