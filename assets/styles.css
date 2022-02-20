@@ -134,6 +134,24 @@ span {
   color: var(--blue);
 }
 
+.aboutMe {
+  margin-left: 8%;
+  /* margin-top: 15%; */
+  margin-top: 220px;
+}
+
+.aboutMe h1 {
+  font-size: 50px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.aboutMe p {
+  font-size: 20px;
+  color: var(--dark);
+  line-height: 22px;
+}
+
 /* Cards below */
 /* card body anchors */
 .wrapper a {
@@ -249,7 +267,10 @@ main {
     position: relative;
   }
   .images img {
-    top: 120px;
+    top: 140px;
+  }
+  .aboutMe {
+    margin-top: 600px;
   }
 }
 
