@@ -76,7 +76,7 @@ https://mattrix01.github.io/My-Portfolio/
 
 ![webpage screenshot 2](images/portfolio-screenshot-mobile-1.png)
 
-![webpage screenshot 3](images/portfolio-screenshot-mobile-2.png)
+![webpage screenshot 3](images/portfolio-screenshot-mobile-3.png)
 
 ## Original layout plan (Later changed on the fly as I got creative)
 
