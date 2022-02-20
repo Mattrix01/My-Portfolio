@@ -91,6 +91,34 @@ span {
   transition: all 0.3s ease-in-out;
 }
 
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  top: 0px;
+}
+
+.images img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+  top: 200px;
+}
+
+.images:hover .shape {
+  /* bottom: 45%;
+  right: 45%; */
+  opacity: 0.9;
+}
+
+.images:hover .me {
+  left: 45%;
+}
+
 /* Cards below */
 /* card body anchors */
 .wrapper a {
@@ -110,13 +138,13 @@ span {
 
 /* CSS for cards styling below */
 main {
-  margin: 2rem;
   color: var(--dark);
+  background-color: var(--lighter);
 }
 
 .card {
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: var(--l-ighter);
   box-shadow: 0 10px 10px rgb(90, 90, 90);
   border: 3px solid var(--dark);
   border-radius: 0.5rem;
@@ -136,7 +164,7 @@ main {
 /* larger top project card */
 .card-large {
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: var(--lighter);
   box-shadow: 0 10px 10px rgb(90, 90, 90);
   border: 3px solid var(--dark);
   border-radius: 0.5rem;
@@ -149,7 +177,7 @@ main {
 
 .card-large:hover {
   transform-style: (1.05);
-  transform: scale(1.1);
+  transform: scale(1.07);
   box-shadow: 0px 2px 40px var(--dark);
 }
 
@@ -195,18 +223,15 @@ main {
   font-size: 1rem;
 }
 
-/* footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 5px 10%;
-  background-color: #2e2e2e;
-  border-radius: 0.5rem;
-} */
-
 @media screen and (max-width: 740px) {
   .card-large {
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wrap {
+    position: relative;
   }
 }
 
@@ -222,8 +247,4 @@ main {
   to {
     opacity: 1;
   }
-}
-
-.fadeindelay {
-  animation: fadein 4s;
 }
