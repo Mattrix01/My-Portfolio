@@ -15,15 +15,15 @@
     <title>Matt's Portfolio</title>
   </head>
   <body>
-    <div class="hero">
+    <div class="hero" id="homelink">
       <nav>
        
         <img src='./images/Matt Knight.png' alt="Image" class="logo slidein" height="180">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#homelink">Home</a></li>
+          <li><a href="#aboutmelink">About Me</a></li>
+          <li><a href="#projectslink">Projects</a></li>
+          <li><a href="images/Matt-Knight-Cv-WebDev.pdf">Resume</a></li>
         </ul>
       </nav>
       <div class="wrap">
@@ -32,7 +32,7 @@
           <p>Welcome to my portfolio page
             <br> Here you will find details and projects I have been creating
           </p>
-        <a href="#">Contact Me</a>
+        <a href="mailto:emjay.knight@gmail.com">Contact Me</a>
         </div>
         <!-- right side -->
         <div class="images">
@@ -40,12 +40,12 @@
           <img src="./images/Me4.png" class="me">
         </div>
         <div class="social">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Mattrix01"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/matt-knight-80a356219/"><i class="fab fa-linkedin"></i></a>
        </div>
        
       </div>
-      <div class="aboutMe">
+      <div id="aboutmelink" class="aboutMe">
         <h1>About Me</h1>
         <p>I am awesome!</p>
       </div>
@@ -192,18 +192,6 @@
     </main>
 
     <!-- footer below -->
-    <footer>
-        <img
-          class="nameLogo"
-          src="images/matt-knight-logo-new.svg"
-          alt="Matt Knight logo"
-        />
-        <nav id="footer">
-          <ul class="nav-container">
-            <li class="nav-item"><a href="mailto:emjay.knight@gmail.com? subject=Question regarding web development">Email</a></li>
-            <li class="nav-item"><a href="https://github.com/Mattrix01">Github</a></li>
-          </ul>
-        </nav>
-    </footer>
+
   </body>
 </html>
