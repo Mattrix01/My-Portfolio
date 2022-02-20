@@ -4,9 +4,9 @@
 
 Demonstration of my HTML and CSS skills in a responsive portfolio page for potential employers to view my work.
 
-## GitHub Pages Link
+## GitHub Links
 
-https://github.com/Mattrix01/My-Portfolio
+https://github.com/Mattrix01/My-Portfolio/tree/dev
 
 https://mattrix01.github.io/My-Portfolio/
 
@@ -20,6 +20,7 @@ https://mattrix01.github.io/My-Portfolio/
 - Typography
 - Media queries
 - Pseudo classes
+- Animation
 
 ## Steps taken
 
@@ -49,16 +50,34 @@ https://mattrix01.github.io/My-Portfolio/
 
 - I set up some id tags in my html so I could jump to those partically sections via the nav links.
 
-- Finally, I had to put each of my card containers inside of an anchor tag so a user can click on my entire card and jump to the corresponding project on github.
+- I had to put each of my card containers inside of an anchor tag so a user can click on my entire card and jump to the corresponding project on github.
 
-- I only have one project, so I have a skeleton set up with a default under contruction picture and links to my github profile, untill I can replace these links with newly added repositories and projects.
+- From here I used my new skills developed from progressing through the course to improve my portfolio page using further HTML and CSS skills aquired.
 
-## Original layout planned
+- I made my cards more responsive using media queries
 
-![layout drawing](images/html-layout-drawing.png)
+- I created a new transparent logo and added a new nav bar with styling
+
+- I added top section making good use of positioning and CSS with some links to my github etc, as well as an image fo me with some new colour and theme styling appleid throughtout page using CSS variables, aswell as some mouse over effects on my page and logo
+
+- I had a lot of trouble shooting for overlaying images and fitting them into place but I got them all solved in the end and maintained a responsive web document for mobile phone devices.
+
+- I did further styling and tweaks throughout page, including adding some fade and margin animations.
+
+- I re-linked all my pages and href's so some open in another tab for usability.
+
+- I added my new projects to my cards effectively.
+
+- Finally, updated my README document and cleaned out any old files, sorted any more responsive issues and bugs (which tend to happen a lot)
 
 ## web page screenshot
 
-![webpage screenshot 1](images/page-screenshot-top.png)
+![webpage screenshot 1](images/portfolio-screenshot-wide.png)
 
-![webpage screenshot 1](images/page-screenshot-bottom.png)
+![webpage screenshot 2](images/portfolio-screenshot-mobile-1.png)
+
+![webpage screenshot 3](images/portfolio-screenshot-mobile-2.png)
+
+## Original layout plan (Later changed on the fly as I got creative)
+
+![layout drawing](images/html-layout-drawing.png)
