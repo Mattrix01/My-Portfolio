@@ -160,6 +160,21 @@ span {
   margin-top: 15%;
   margin-top: 20x;
   margin-bottom: 20px;
+  padding: 8px;
+  border-left: 5px solid black;
+  border-image: linear-gradient(
+    to bottom,
+    var(--blue) 50%,
+    rgba(0, 0, 0, 0) 50%
+  ); /* to top - at 50% transparent */
+  border-image-slice: 1;
+  border-top: 5px solid black;
+  border-image: linear-gradient(
+    to right,
+    var(--blue) 30%,
+    rgba(0, 0, 0, 0) 50%
+  ); /* to top - at 50% transparent */
+  border-image-slice: 1;
 }
 
 .aboutMe h1 {
