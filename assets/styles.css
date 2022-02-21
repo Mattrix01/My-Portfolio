@@ -338,7 +338,7 @@ main {
 
 /* animation */
 .fadein {
-  animation: fadein 2s;
+  animation: fadein 2.5s;
 }
 
 @keyframes fadein {
