@@ -134,6 +134,23 @@ span {
   color: var(--blue);
 }
 
+.socialres {
+  margin-left: 8%;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.socialres a {
+  font-size: 30px;
+  color: var(--dark);
+  margin-right: 20px;
+}
+
+.socialres a:hover {
+  color: var(--blue);
+}
+
 .aboutMe {
   margin-left: 8%;
   margin-top: 15%;
@@ -266,6 +283,18 @@ main {
 @media screen and (max-width: 800px) {
   .card-large {
     width: 400px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .card-large {
+    width: 388px;
+  }
+  .socialres {
+    display: contents;
+  }
+  .social {
+    display: none;
   }
 }
 
