@@ -263,6 +263,12 @@ main {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .card-large {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .wrap {
     position: relative;
