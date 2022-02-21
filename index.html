@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Matt's Portfolio</title>
+  </head>
+  <body>
+    <div class="hero" id="homelink">
+      <nav>
+       
+        <img src='./images/Matt Knight.png' alt="Image" class="logo slidein" height="180">
+        <ul>
+          <li><a href="#homelink">Home</a></li>
+          <li><a href="#aboutmelink">About Me</a></li>
+          <li><a href="#projectslink">Projects</a></li>
+          <li><a href="images/Matt-Knight-Cv-WebDev.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+      <div class="wrap">
+        <div class="details fadein">
+          <h1>Matt <span>Knight</span></h1>
+          <p>Welcome to my portfolio page.
+            <br> Here you will find my details, <br> as well as projects I have been creating.
+          </p>
+        <a href="mailto:emjay.knight@gmail.com">Contact Me</a>
+        </div>
+        
+        <!-- right side -->
+        <div class="images">
+          <img src="./images/logobackdrop.png" class="shape fadein" >
+          <img src="./images/Me4.png" class="me">
+        </div>
+        <div class="social">
+          <a href="https://github.com/Mattrix01" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/matt-knight-80a356219/" target="_blank"><i class="fab fa-linkedin"></i></a>
+       </div>
+       
+      
+      </div>
+      
+      
+      
+
+    </div>
+    
+    <div id="aboutmelink" class="aboutMe">
+      <div class="socialres">
+        <a href="https://github.com/Mattrix01" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matt-knight-80a356219/" target="_blank"><i class="fab fa-linkedin"></i></a>
+     </div>
+      <h1>About Me </h1>
+      <p class="aboutclass">In the past eight years, I have been working at recording studios across West London and remotely producing audio and engineering mixes for many reputable companies and artists.
+        <br> 
+        <br> I have always impressed them with my dedication, diversatility and out the box thinking which I hope to bring to my new journey into web development.
+        <br>
+        <br> I have a history in the family of software specialists and programmers so it has always been something surrounding and inspiring me growing up. I am naturally both a technical and creative person which I have demonstrated in my music career and want to bring that into the web development world.
+        <br>
+        <br> I am great with clients, at understanding things to fine detail and can pick things up quickly and effectively. I am also known for having a kind heart, patience and a great sense of humour.
+        <br>
+        <br> I am currently mid-way through a full-stack web development course where we have been learning and applying knowledge of HTML, CSS, Javacsipt and Node.js.
+      </p>
+    </div>
+  
+    <!-- dont forget contact as the button by me image instead of on nav!   -->
+    <!-- Cards in wrapper below -->
+    <main>
+      <div id="projectslink" class="wrapper projectsResponse">
+        <!-- Card 1 large -->
+        <a href="https://mattrix01.github.io/MCU-deep-diver/">
+            <div class="card-large">
+            <div class="card-banner">
+            <p class="project-tag popular">Project 1</p>
+            <img
+              src="./images/MCU-deep-diver-screenshot.png"
+              alt="project 1 image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <h2 class="project-title">MCU-deep-diver</h2>
+            <p class="project-description">
+              This project makes use of javascript and the Marvel & OMDB API.
+              You can search any Marvel charcter and dynamically generate cards with data and interact with that data while also utilising local storage.
+            </p>
+            <p class="project-clickme">Click me to view project!</p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 2 -->
+        <a href="https://mattrix01.github.io/Timed-quiz/">
+        <div class="card">
+          <div class="card-banner">
+            <p class="project-tag category-label">Project 2</p>
+            <img
+              src="./images/code-quiz-mobile-screenshots.jpeg"
+              alt="project image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <p class="project-clickme">Click me to view project!</p>
+            <h2 class="project-title">Code Quiz</h2>
+            <p class="project-description">This is a code quiz showing my javascript knowledge. Here I am making good use of dynamic html and generating questions to a timer using moment.js, arrays and if statements and local storage. </p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 3 -->
+        <a href="https://mattrix01.github.io/weather-dashboard/">
+        <div class="card">
+          <div class="card-banner">
+            <p class="project-tag popular">Project 3</p>
+            <img
+              src="./images/weather-app-screenshot.png"
+              alt="project image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <p class="project-clickme">Click me to view project!</p>
+            <h2 class="project-title">Weather App</h2>
+            <p class="project-description">This is a weather app using openweather API to fetch weather details and append them to a page dynamically. I am also using local storage for search history and iterating through the API.</p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 4-->
+        <a href="https://github.com/Mattrix01">
+        <div class="card">
+          <div class="card-banner">
+            <p class="project-tag popular">Project 4</p>
+            <img
+              src="images/project2-cardimage.jpg"
+              alt="project image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <p class="project-clickme">Click me to view project!</p>
+            <h2 class="project-title">Project 4</h2>
+            <p class="project-description">Project coming soon!</p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 5 -->
+        <a href="https://github.com/Mattrix01">
+        <div class="card">
+          <div class="card-banner">
+            <p class="project-tag popular">Project 5</p>
+            <img
+              src="images/project2-cardimage.jpg"
+              alt="project image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <p class="project-clickme">Click me to view project!</p>
+            <h2 class="project-title">Project 5</h2>
+            <p class="project-description">Project coming soon!</p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 6 -->
+        <a href="https://github.com/Mattrix01">
+        <div class="card">
+          <div class="card-banner">
+            <p class="project-tag popular">Project 6</p>
+            <img
+              src="images/project2-cardimage.jpg"
+              alt="project image"
+              class="banner-img"
+            />
+          </div>
+          <div class="card-body">
+            <p class="project-clickme">Click me to view project!</p>
+            <h2 class="project-title">Project 6</h2>
+            <p class="project-description">Project coming soon!</p>
+          </div>
+        </div>
+        </a>
+        <!-- Card 7 -->
+        <a href="https://github.com/Mattrix01">
+        <div class="card">
+            <div class="card-banner">
+              <p class="project-tag popular">Project 7</p>
+              <img
+                src="images/project2-cardimage.jpg"
+                alt="project image"
+                class="banner-img"
+              />
+            </div>
+            <div class="card-body">
+              <p class="project-clickme">Click me to view project!</p>
+              <h2 class="project-title">Project 7</h2>
+              <p class="project-description">Project coming soon!</p>
+            </div>
+          </div>
+          <a href="https://github.com/Mattrix01"></a>
+        <!-- Each card in wrapper above -->
+      </div>
+    </main>
+    <nav>
+       
+      <img src='./images/Matt Knight.png' alt="Image" class="logo slidein" height="180">
+      <ul>
+        <li><a href="#homelink">Home</a></li>
+      </ul>
+    </nav>
+
+    <!-- footer below -->
+
+  </body>
+</html>
