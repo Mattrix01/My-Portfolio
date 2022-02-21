@@ -68,15 +68,21 @@ https://mattrix01.github.io/My-Portfolio/
 
 - I added my new projects to my cards effectively.
 
+- I removed social link icon elements and added them somewhere else for smaller view ports
+
 - Finally, updated my README document and cleaned out any old files, sorted any more responsive issues and bugs (which tend to happen a lot!)
 
 ## web page screenshot
 
-![webpage screenshot 1](images/portfolio-screenshot-wide.png)
+![webpage screenshot 1](images/screenshot-wide.png)
 
-![webpage screenshot 2](images/portfolio-screenshot-mobile-1.png)
+![webpage screenshot 2](images/screenshot-mobile-1.png)
 
-![webpage screenshot 3](images/portfolio-screenshot-mobile-3.png)
+![webpage screenshot 3](images/screenshot-mobile-2.png)
+
+![webpage screenshot 4](images/screenshot-mobile-3.png)
+
+![webpage screenshot 5](images/screenshot-mobile-4.png)
 
 ## Original layout plan (Later changed on the fly as I got creative)
 
