@@ -15,10 +15,10 @@
 }
 
 .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: var(--lighter);
+  /* position: relative; */
+  /* width: 100%;
+  height: 100vh; */
+  /* background: var(--lighter); */
 }
 
 nav {
@@ -136,9 +136,9 @@ span {
 
 .aboutMe {
   margin-left: 8%;
-  /* margin-top: 15%; */
-  margin-top: 220px;
-  margin-bottom: 1000px;
+  margin-top: 15%;
+  margin-top: 20x;
+  margin-bottom: 20px;
 }
 
 .aboutMe h1 {
@@ -173,7 +173,7 @@ span {
 /* CSS for cards styling below */
 main {
   color: var(--dark);
-  background-color: var(--lighter);
+  /* background-color: var(--lighter); */
 }
 
 .card {
@@ -257,13 +257,13 @@ main {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 600px) {
   .card-large {
     width: 450px;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 950px) {
   .wrap {
     position: relative;
   }
@@ -275,7 +275,7 @@ main {
   }
   .projectsResponse {
     /* change depending on about me length */
-    margin-top: 600px;
+    /* margin-top: 600px; */
   }
 }
 
