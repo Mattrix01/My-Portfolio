@@ -14,12 +14,12 @@
   --lighter: #eff4fd;
 }
 
-.hero {
-  /* position: relative; */
-  /* width: 100%;
-  height: 100vh; */
-  /* background: var(--lighter); */
-}
+/* .hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: var(--lighter);
+} */
 
 nav {
   display: flex;
@@ -259,7 +259,7 @@ main {
 
 @media screen and (max-width: 600px) {
   .card-large {
-    width: 450px;
+    width: 400px;
   }
 }
 
@@ -273,10 +273,9 @@ main {
   .aboutMe {
     margin-top: 600px;
   }
-  .projectsResponse {
-    /* change depending on about me length */
-    /* margin-top: 600px; */
-  }
+  /* .projectsResponse {
+    margin-top: 600px;
+  } */
 }
 
 /* animation */
