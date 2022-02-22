@@ -102,10 +102,10 @@ span {
 .images img {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  /* bottom: 0; */
   transform: translateX(-50%);
-  transition: bottom 1s, left 1s;
-  top: -100px;
+  transition: bottom 1s, left 1s; */
+  /* top: -100px; */
 }
 
 .images:hover .shape {
@@ -171,8 +171,8 @@ span {
   border-top: 5px solid black;
   border-image: linear-gradient(
     to right,
-    var(--blue) 30%,
-    rgba(0, 0, 0, 0) 50%
+    var(--blue) 15%,
+    rgba(0, 0, 0, 0) 30%
   ); /* to top - at 50% transparent */
   border-image-slice: 1;
 }
@@ -321,7 +321,7 @@ main {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
   .wrap {
     position: relative;
   }
